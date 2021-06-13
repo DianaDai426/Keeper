@@ -1,10 +1,7 @@
 const express = require("express");
 const Note = require("../models/note-model")
 const mongoose = require('mongoose')
-//const { Note } = require("../../client/src/components");
-//const addNote = require("../controllers/note-ctrl")
 
-//migrates note-ctrl to here
 const router = express.Router()
 
 router.route('/add').post((req,res) => {
